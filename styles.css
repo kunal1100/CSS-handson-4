@@ -1,0 +1,128 @@
+#navbar{
+    height: 30px;
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+.list{
+    width: 550px;
+    height: 55px;
+    background-color: #A4D3E4;
+    border: 5px solid red;
+    border-radius: 15px;
+    position: relative;
+}
+.list ul{
+    margin-top: -2px;
+}
+#container{
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 145px;
+}
+.card{
+    width: 350px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px ;
+    height: 70px;
+    display: inline-block;
+}
+.card p{
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+}
+.navbar2{
+    background-image: linear-gradient(to right, red, yellow, red);
+    height: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.scores{
+    background-image: radial-gradient(deepskyblue, dodgerblue, #60E26C);
+    border: 2px solid green;
+    height: 300px;
+}
+.banner{
+    background-color: khaki;
+    color: red;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    text-decoration: underline;
+    border: 3px solid red;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 100px
+}
+.banner p{
+    margin-top: -1px;
+    font-weight: bold;
+}
+.navbar3{
+    background-color:crimson;
+    height: 30px;
+    text-align: center;
+}
+.navbar3 h3{
+    color: white;
+}
+.grid{
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid green;
+    display: grid;
+    grid-template-rows: 50px 80px 150px 30px;
+    grid-template-columns:  repeat(3,1fr) 100px;
+    grid-gap: 15px;
+    color: white;
+}
+.div1{
+    background-color: #D82548;
+    grid-column: 1/-1;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.div2{
+    background-color: #60E26C;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.div3{
+    background-color: #2D84F0;
+    font-size: 26px;
+    font-weight: bold;
+}
+.div4{
+    background-color: #493BE2;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.div5{
+    background-color: black;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 18px;
+    text-align:start;
+}
+.div6{
+    background-color:#E9963C;
+    grid-column: 1/4;
+    font-size: 26px;
+    font-weight: bold;
+}
+.div7{
+    background-color: #5BD7CC;
+    grid-column: 1/-1;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
